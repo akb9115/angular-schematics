@@ -1,0 +1,5 @@
+<form class="dynamic-form" [formGroup]="form" (submit)="onSubmit($event)">
+    <div *ngIf="fields">
+        <span *ngFor="let field of fields;" intgDynamicField [field]="field" [group]="form"> </span>
+    </div>
+</form>

@@ -1,0 +1,5 @@
+<form class="text-center mx-auto" *ngIf="regConfig">
+    <h1>Login</h1>
+    <dynamic-form [fields]="regConfig" (submit)="submit($event)"></dynamic-form>
+    <div *ngIf="error" class="alert alert-danger mt-3">{{error}}</div>
+</form>

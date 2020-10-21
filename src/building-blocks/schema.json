@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "DynamicSchematics",
+    "title": "Dynamic Schema",
+    "type": "object",
+    "properties": {
+      "path": {
+        "type": "string",
+        "format": "path",
+        "description": "The path to create the component.",
+        "x-prompt":"Please provide the path to create building blocks or enter 'Y' to consider default path:"
+      },
+      "module":  {
+        "type": "string",
+        "description": "The declaring module.",
+        "alias": "m"
+      }
+    },
+    "required":[
+      "path"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "building-blocks": {
+      "description": "A blank schematic.",
+      "factory": "./building-blocks/index#buildingBlocks",
+      "schema":"./building-blocks/schema.json"
+    },
+    "generate-form": {
+      "description": "A blank schematic.",
+      "factory": "./generate-form/index#generateForm",
+      "schema": "./generate-form/schema.json"
+    }
+  }
+}

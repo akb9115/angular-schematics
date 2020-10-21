@@ -1,0 +1,36 @@
+[
+
+    {
+        "type": "input",
+        "inputType": "text",
+        "for": "username",
+        "name": "username",
+        "label": "",
+        "placeholder": "Enter Username",
+        "class": "form-control input1",
+        "tags": "",
+        "validations": ["required", "pattern"]
+
+    },
+    {
+        "type": "input",
+        "inputType": "password",
+        "for": "password",
+        "name": "password",
+        "label": "",
+        "class": "form-control input1",
+        "tags": "",
+        "placeholder": "Enter Password",
+        "validations": ["required"]
+
+    },
+
+
+
+    {
+        "type": "button",
+        "label": "Submit",
+        "class": "form-btn btn btn-primary",
+        "action": "demo()"
+    }
+]
